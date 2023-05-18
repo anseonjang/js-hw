@@ -47,7 +47,7 @@ nav.tnb ul i:last-child a:focus { background-color: #fff; color: #ff8342; }
 /* =================
  main 
 ====================*/
-#wrap section.main { width: 100%; height: 1000px; background: url("../images/vis_1.jpg") no-repeat center/cover; background-attachment: fixed;  z-index:1; min-width: 1400px; /* <-모바일에서 반으로 깨져보이는 현상 방지 */ }
+#wrap section.main { width: 100%; height: 1000px; background: url("../images/vis_1.jpg") no-repeat center/cover; background-attachment: fixed;  z-index:1; min-width: 1400px;  position:relative;/* <-모바일에서 반으로 깨져보이는 현상 방지 */ }
  
 
 /* main text */
